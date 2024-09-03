@@ -1,6 +1,8 @@
 import streamlit as st
 from components import type_text
 
+
+
 with st.sidebar:
     st.write('A sample text')
 
