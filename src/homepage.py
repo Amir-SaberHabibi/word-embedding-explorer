@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 from components import type_text
 
 # Set the page configuration as the very first Streamlit command
@@ -7,8 +8,10 @@ st.set_page_config(
     page_icon="icon.png"  # Ensure this path is correct
 )
 
+logo_path = os.path.join(os.path.dirname(__file__), "logo.png")
+
 with st.sidebar:
-    st.image("logo.png", use_column_width=True)
+    st.image(logo_path, use_column_width=True)
     st.write('A sample text')
 
 def show_home():
