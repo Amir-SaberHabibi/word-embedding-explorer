@@ -8,7 +8,7 @@
 
 The **Streamlit Word Embedding Tool** is an interactive web app for exploring and visualizing word embeddings using pre-trained models like GloVe, Word2Vec, and FastText. It offers features such as word analogies, nearest neighbors, similarity comparisons, and 3D visualizations.
 
-![Word Embedding Tool](https://user-images.githubusercontent.com/12345678/your-image.png)
+![Word Embedding Tool](src/logo.png)
 
 
 ## Features
