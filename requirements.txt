@@ -4,4 +4,4 @@ pandas
 scikit-learn
 gensim
 plotly
-scipy
+scipy==1.12
