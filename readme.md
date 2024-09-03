@@ -1,4 +1,4 @@
-# Streamlit Word Embedding Tool
+# Word Embedding Explorer
 
 [![Streamlit](https://img.shields.io/badge/streamlit-v1.25.0-brightgreen)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/python-v3.9-blue)](https://www.python.org/)
@@ -6,7 +6,7 @@
 
 ## Overview
 
-The **Streamlit Word Embedding Tool** is an interactive web app for exploring and visualizing word embeddings using pre-trained models like GloVe, Word2Vec, and FastText. It offers features such as word analogies, nearest neighbors, similarity comparisons, and 3D visualizations.
+The **Word Embedding Explorer** is an interactive web app for exploring and visualizing word embeddings using pre-trained models like GloVe, Word2Vec, and FastText. It offers features such as word analogies, nearest neighbors, similarity comparisons, and 3D visualizations.
 
 ![Word Embedding Tool](src/logo.png)
 
@@ -22,5 +22,5 @@ The **Streamlit Word Embedding Tool** is an interactive web app for exploring an
 ## Installation
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/streamlit-word-embedding-tool.git
+   git clone https://github.com/<your-username>/streamlit-word-embedding-tool.git
    cd streamlit-word-embedding-tool
