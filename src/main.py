@@ -6,10 +6,7 @@ from word_similarity import show_word_similarity
 from verctor_space import show_interactive_exploration
 from word_embeddings import show_word_embeddings
 
-st.set_page_config(
-    page_title="Word Embedding Explorer",
-    page_icon="icon.png"
-)
+
 
 def main():
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([

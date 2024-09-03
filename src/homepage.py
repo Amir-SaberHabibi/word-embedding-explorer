@@ -1,9 +1,14 @@
 import streamlit as st
 from components import type_text
 
-
+# Set the page configuration as the very first Streamlit command
+st.set_page_config(
+    page_title="Word Embedding Explorer",
+    page_icon="icon.png"  # Ensure this path is correct
+)
 
 with st.sidebar:
+    st.image("logo.png", use_column_width=True)
     st.write('A sample text')
 
 def show_home():
