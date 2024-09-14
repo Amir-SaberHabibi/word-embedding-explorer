@@ -12,7 +12,7 @@ logo_path = os.path.join(os.path.dirname(__file__), "logo.png")
 
 with st.sidebar:
     st.image(logo_path, use_column_width=True)
-    st.write('A sample text')
+    st.write('')
 
 def show_home():
     st.markdown("<h3>Welcome to the advanced word embeddings vectorization tool!</h3>", unsafe_allow_html=True)
